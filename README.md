@@ -1,16 +1,19 @@
-# simulador_unifique
+# simulador_de_planos
 
-Simulador de planos dos produtos Unifique
+Simulador de planos de produtos e serviços
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Simulador utilizado pelos consultores para criar propostas para os clientes. A ideia é que em uma única tela seja possível gerar uma proposta com todos os valores e informações que o cliente necessite saber.
 
-A few resources to get you started if this is your first Flutter project:
+Tela 1920x1080
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img1.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Tela 1366x768
+
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img2.png)
+
+Tela Navegador Dispositivo Mobile
+
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img3.png)
