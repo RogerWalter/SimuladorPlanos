@@ -1,0 +1,161 @@
+name: simulador_unifique
+description: Simulador de planos dos produtos Unifique
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  auto_size_text_pk: ^3.0.0
+  another_flushbar: ^1.12.29
+  printing: ^5.9.3
+  path_provider: ^2.0.11
+  flutter_animated_dialog: ^2.0.1
+  popover: ^0.2.8+2
+  flutter_animate: ^4.1.0
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^4.2.8
+  firebase_core: ^2.7.0
+  shared_preferences: ^2.0.18
+  brasil_fields: ^1.9.1
+  flutter_svg: ^2.0.3
+  grouped_list: ^5.1.2
+  get: ^4.6.5
+  switcher: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/header.png
+    - assets/bottom.png
+    - assets/logo-bem-vindo.png
+    - assets/logo-casa.png
+    - assets/logo-telemedicina.png
+    - assets/logo-internet.png
+    - assets/logo-wifi-business.png
+    - assets/logo-combo.png
+    - assets/logo-telefonia.png
+    - assets/logo-cameras.png
+    - assets/logo-branca.svg
+    - assets/logo-branca-sem-circulo.svg
+    - assets/logo-mesh.png
+    - assets/logo-tv.png
+    - assets/icone-adicionar.svg
+    - assets/icone-camera-azul.svg
+    - assets/icone-camera-azul-claro.svg
+    - assets/icone-camera-branco.svg
+    - assets/icone-casa-azul.svg
+    - assets/icone-casa-azul-claro.svg
+    - assets/icone-casa-branco.svg
+    - assets/icone-cancelar.svg
+    - assets/icone-excluir.svg
+    - assets/icone-exportar.svg
+    - assets/icone-limpar.svg
+    - assets/icone-mais-qtd.svg
+    - assets/icone-menos-qtd.svg
+    - assets/icone-mesh-azul.svg
+    - assets/icone-mesh-azul-claro.svg
+    - assets/icone-mesh-branco.svg
+    - assets/icone-tv-azul.svg
+    - assets/icone-tv-azul-claro.svg
+    - assets/icone-tv-branco.svg
+    - assets/icone-telemedicina-azul.svg
+    - assets/icone-telemedicina-azul-claro.svg
+    - assets/icone-telemedicina-branco.svg
+    - assets/icone-internet-azul.svg
+    - assets/icone-internet-azul-claro.svg
+    - assets/icone-internet-branco.svg
+    - assets/icone-wifi-business-azul.svg
+    - assets/icone-wifi-business-azul-claro.svg
+    - assets/icone-wifi-business-branco.svg
+    - assets/icone-combo-azul.svg
+    - assets/icone-combo-azul-claro.svg
+    - assets/icone-combo-branco.svg
+    - assets/icone-telefonia-azul.svg
+    - assets/icone-telefonia-azul-claro.svg
+    - assets/icone-telefonia-branco.svg
+    - assets/icone-pessoa-fisica.svg
+    - assets/icone-pessoa-juridica.svg
+
+    - assets/logo.png
+    - assets/login-logo.png
+    - assets/wallpaper-dialogo.jpg
+    - assets/wallpaper-tela.jpg
+    - assets/wallpaper-login.jpg
+
+  fonts:
+    - family: UniviaPro
+      fonts:
+        - asset: fonts/UniviaPro-Book.ttf
+        - asset: fonts/UniviaPro-Bold.ttf
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

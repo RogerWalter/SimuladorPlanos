@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "667343975387",
+    "project_id": "simulador-unifique",
+    "storage_bucket": "simulador-unifique.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667343975387:android:7ba90077b0eb1ba788edfe",
+        "android_client_info": {
+          "package_name": "com.ssoft.simulador_unifique"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667343975387-82nu1ol10r79glor748t9nifqf0cr334.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQPHFCij4cVfox6TT29_Z_6H5Z-Hfq2ZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667343975387-82nu1ol10r79glor748t9nifqf0cr334.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

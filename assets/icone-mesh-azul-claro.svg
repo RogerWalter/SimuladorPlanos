@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.616" height="23.616" viewBox="0 0 23.616 23.616">
+  <g id="icone-mesh-azul-claro" transform="translate(-2126 481)">
+    <g id="Grupo_20" data-name="Grupo 20" transform="translate(2126 -481)">
+      <g id="router-one-svgrepo-com">
+        <rect id="Retângulo_20" data-name="Retângulo 20" width="23.317" height="23.317" fill="rgba(255,255,255,0.01)"/>
+        <path id="Caminho_3" data-name="Caminho 3" d="M23.616,0H0V23.616H23.616Z" fill="rgba(255,255,255,0.01)"/>
+        <path id="Caminho_4" data-name="Caminho 4" d="M6.952,24,4,30.888H23.68L20.728,24Z" transform="translate(-2.032 -12.192)" fill="none" stroke="#00b1eb" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Caminho_5" data-name="Caminho 5" d="M10,4V4Z" transform="translate(-5.08 -2.032)" fill="#2f88ff" fill-rule="evenodd"/>
+        <path id="Caminho_6" data-name="Caminho 6" d="M10,4v9.84" transform="translate(-5.08 -2.032)" fill="none" stroke="#00b1eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Caminho_7" data-name="Caminho 7" d="M38,4V4Z" transform="translate(-19.304 -2.032)" fill="#2f88ff" fill-rule="evenodd"/>
+        <path id="Caminho_8" data-name="Caminho 8" d="M38,4v9.84" transform="translate(-19.304 -2.032)" fill="none" stroke="#00b1eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Caminho_9" data-name="Caminho 9" d="M24,4V4Z" transform="translate(-12.192 -2.032)" fill="#2f88ff" fill-rule="evenodd"/>
+        <path id="Caminho_10" data-name="Caminho 10" d="M24,4v9.84" transform="translate(-14.652 -2.032)" fill="none" stroke="#00b1eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Caminho_16" data-name="Caminho 16" d="M24,4v9.84" transform="translate(-9.732 -2.032)" fill="none" stroke="#00b1eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Caminho_11" data-name="Caminho 11" d="M4,38v2.952H23.68V38" transform="translate(-2.032 -19.304)" fill="none" stroke="#00b1eb" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+    <path id="wifi-svgrepo-com_1_" data-name="wifi-svgrepo-com (1)" d="M3.247,7.117a.636.636,0,1,1,0,.9.636.636,0,0,1,0-.9h0ZM1.255,5.974a3.628,3.628,0,0,1,4.985,0l-.746.742a2.545,2.545,0,0,0-3.6,0l-.643-.742ZM.1,4.918a5.091,5.091,0,0,1,7.192,0l-.732.719a3.907,3.907,0,0,0-5.709,0L.1,4.918h0Z" transform="translate(2134.112 -471.562)" fill="#00b1eb"/>
+  </g>
+</svg>

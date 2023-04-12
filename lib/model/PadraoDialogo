@@ -1,0 +1,68 @@
+class _DialogoCameraState extends State<DialogoCamera> {
+  Controller controller = Get.find();
+  Camera nova = Camera();
+  Res res = Res();
+
+  @override
+  Widget build(BuildContext context) {
+    var largura = MediaQuery.of(context).size.width;
+    var altura = MediaQuery.of(context).size.height;
+    var largura_coluna = (largura - 240)/14;
+    return LayoutBuilder(
+        builder: (context, constraints){
+          var layout_largura = constraints.maxWidth;
+          var layout_altura = constraints.maxHeight;
+          if(layout_largura>1000 && layout_altura>500){
+
+          }
+          else if(layout_largura<1000 && layout_altura > 500){//tela celular
+
+          }
+          else{//muito pequeno - precisa aumentar a tela para usar
+            return Scaffold(
+              body: Container(
+                color: Colors.white,
+                child: Expanded(
+                    child: Center(
+                      child: AutoSizeText(
+                        'Aumente a janela para usar',
+                        style: res.texto_bold_azul_20,
+                        minFontSize: 8,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    )
+                ),
+              ),
+            );
+          }
+        }
+    );
+  }
+
+
+  salvar_camera(){
+    if(controller_mobx.tipo_selecionado_dropdown == "" || controller_mobx.tipo_selecionado_dropdown.toString().isEmpty ||
+        controller_mobx.armz_selecionado_dropdown == "" || controller_mobx.armz_selecionado_dropdown.toString().isEmpty ||
+        controller_mobx.lice_selecionado_dropdown == "" || controller_mobx.lice_selecionado_dropdown.toString().isEmpty){
+      Flushbar(
+        backgroundColor: Colors.red,
+        message: 'Existem campos obrigatórios que não foram preenchidos.',
+        duration: Duration(seconds: 2),
+      ).show(context);
+      return;
+    }
+    else{
+      nova.armaz = controller_mobx.armz_selecionado_dropdown.toString();
+      nova.tipo = controller_mobx.tipo_selecionado_dropdown.toString();
+      nova.licen = controller_mobx.lice_selecionado_dropdown.toString();
+      for(int i = 0; i < controller_mobx.qtd_adicionar; i++){
+        controller_mobx.adicionar_camera(nova);
+      }
+      Navigator.of(context).pop();
+      controller_mobx.seleciona_tipo("");
+      controller_mobx.seleciona_armz("");
+      controller_mobx.seleciona_lice("");
+    }
+  }
+}
