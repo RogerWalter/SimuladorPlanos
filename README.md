@@ -8,7 +8,7 @@ Simulador utilizado pelos consultores para criar propostas para os clientes. A i
 
 Tela 1920x1080
 
-![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img1.png)
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img1.jpg)
 
 Tela 1366x768
 
