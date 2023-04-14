@@ -12,12 +12,12 @@ Tela 1920x1080
 
 Tela 1366x768
 
-![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img2.png)
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img2.jpg)
 
 Tela Navegador Dispositivo Mobile
 
-![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img3.png)
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img3.jpg)
 
 Login
 
-![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img4.png)
+![alt text](https://github.com/RogerWalter/SimuladorPlanos/blob/main/img4.jpg)
